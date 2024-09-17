@@ -1,0 +1,112 @@
+#header {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 3vh;
+  position: sticky;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: rgba(255, 255, 255, 0.4);
+  height: 80px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  height: inherit;
+  column-gap: 2vw;
+}
+
+#navbar > a {
+  font-family: "Montserrat", sans-serif;
+
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  font-size: 3rem;
+  user-select: none;
+  cursor: pointer;
+  height: inherit;
+  border-bottom: solid 4px rgba(255, 255, 255, 0);
+	transition: all 250ms;
+}
+
+#navbar > a:hover {
+  border-bottom: solid 4px rgba(255, 255, 255, 255);
+}
+
+.active {
+  border-bottom: solid 4px rgba(255, 255, 255, 255) !important;
+}
+
+#navbar  > a {
+  display: flex;
+}
+
+#navbar > a > img {
+  height: 63px;
+}
+
+#name {
+  margin-right: 3vw;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#name > h2,
+#name > h1 {
+  text-align: right;
+}
+
+#name > h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+#name > h2 {
+  position: relative;
+  top: -20px;
+  font-size: 1.2rem;
+  display: none;
+}
+
+/* #links {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  align-items: center;
+  column-gap: 0.5vw;
+  margin-right: 3vw;
+}
+
+#links > a {
+  height: 50px;
+  width: auto;
+  padding-right: 3px;
+  padding-left: 3px;
+  transition: all 150ms;
+}
+
+#link > a :last-child {
+  padding-right: 0px;
+}
+
+#links > a:hover {
+  height: 56px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#links > a > img {
+  height: 100%;
+  width: auto;
+} */

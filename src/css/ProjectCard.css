@@ -1,0 +1,52 @@
+#logos {
+  display: flex;
+  justify-content: left;
+  column-gap: 2%;
+}
+
+#logos > img {
+  height: 10vh;
+}
+
+#github_link {
+  width: 10vh;
+}
+
+#logos > a {
+  width: 10vh;
+  height: 10vh;
+  padding-right: 4%;
+  margin-right: 2%;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+#project_display > ul {
+  margin-top: 0.5vh;
+}
+
+#project_display > img {
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  margin-top: 1rem;
+}
+
+#project_display > ul > li {
+  list-style: inside;
+}
+
+#project_display > h1,
+#project_display > h2 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#project_display > p,
+li {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  margin-left: 10px;
+}

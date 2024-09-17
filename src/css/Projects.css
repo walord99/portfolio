@@ -1,0 +1,55 @@
+#projects {
+  height: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+}
+
+#project_list {
+  margin-right: 5vw;
+}
+
+.selected_project {
+  border-left: solid 4px rgba(255, 255, 255, 255) !important;
+}
+
+#project_list > div {
+  cursor: pointer;
+  margin-bottom: 3vh;
+  padding-left: 0.5vw;
+  display: flex;
+  align-items: center;
+  column-gap: 1vw;
+  border-left: solid 4px rgba(255, 255, 255, 0);
+  transition: all 250ms;
+}
+
+#project_list > div:hover {
+  border-left: solid 4px rgba(255, 255, 255, 255);
+}
+
+#project_list > div > img {
+  height: 100px;
+}
+
+#project_list > div > h3 {
+  font-size: 4rem;
+  line-height: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#project_display {
+  width: 100%;
+  overflow-y: auto;
+  height: calc(100vh - 50px - 10vh);
+  padding-right: 2vw;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
