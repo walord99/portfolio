@@ -11,21 +11,18 @@ function Page_404() {
           width="500"
           height="500"
           src="https://www.youtube.com/embed/ihE2_fvT1f4?autoplay=0&origin=http://example.com"
-          frameborder="0"
         ></iframe>
         <iframe
           id="ytplayer"
           width="500"
           height="500"
           src="https://www.youtube.com/embed/AG01bN8l1Tc?autoplay=0&origin=http://example.com"
-          frameborder="0"
         ></iframe>
         <iframe
           id="ytplayer"
           width="500"
           height="500"
           src="https://www.youtube.com/embed/dJUZv-5xny0?autoplay=0&origin=https://discord.com"
-          frameborder="0"
         ></iframe>
       </div>
     </div>

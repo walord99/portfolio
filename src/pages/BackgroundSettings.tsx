@@ -9,7 +9,7 @@ export type sliderData = {
   currentValue: number;
 };
 
-export type silderGroup = {
+export type sliderGroup = {
   name: string;
   min: sliderData,
   max: sliderData,
@@ -43,7 +43,7 @@ function Slider({ slide }: { slide: sliderData }) {
   );
 }
 
-function BackgroundSettings({settings}: {settings: silderGroup[]}) {
+function BackgroundSettings({settings}: {settings: sliderGroup[]}) {
 
   return (
     <div id="settings">

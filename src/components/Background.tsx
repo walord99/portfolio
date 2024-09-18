@@ -2,9 +2,9 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { useEffect, useMemo, useRef, useState } from "react";
 import "../css/Background.css";
 import { ShaderMaterial } from "three";
-import { sliderData, silderGroup } from "../pages/BackgroundSettings";
+import { sliderGroup } from "../pages/BackgroundSettings";
 
-function GradMesh({ settings }: { settings: silderGroup[] }) {
+function GradMesh({ settings }: { settings: sliderGroup[] }) {
   const [fragment, setFragment] = useState<string | null>(null);
   const { viewport } = useThree();
   const materialRef = useRef<ShaderMaterial | null>(null);
@@ -39,6 +39,7 @@ function GradMesh({ settings }: { settings: silderGroup[] }) {
 
   useFrame((state, delta) => {
     if (materialRef.current) {
+      state;
       materialRef.current.uniforms.u_min1.value = settings[0].min.currentValue;
       materialRef.current.uniforms.u_min2.value = settings[1].min.currentValue;
       materialRef.current.uniforms.u_min3.value = settings[2].min.currentValue;
@@ -74,7 +75,7 @@ function GradMesh({ settings }: { settings: silderGroup[] }) {
   );
 }
 
-function GradientBackground({ settings }: { settings: silderGroup[] }) {
+function GradientBackground({ settings }: { settings: sliderGroup[] }) {
   return (
     <div id="background-container">
       <Canvas>

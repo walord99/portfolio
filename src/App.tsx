@@ -3,7 +3,7 @@ import Projects from "./pages/Projects";
 import GradientBackground from "./components/Background";
 import BackgroundSettings from "./pages/BackgroundSettings";
 
-import { sliderData, silderGroup } from "./pages/BackgroundSettings";
+import { sliderData, sliderGroup } from "./pages/BackgroundSettings";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Page_404 from "./pages/404";
 import About from "./pages/About";
@@ -44,7 +44,7 @@ function App() {
     currentValue: 33,
   };
 
-  const group1: silderGroup = {
+  const group1: sliderGroup = {
     name: "Red",
     min: setting1,
     max: range1,
