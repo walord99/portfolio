@@ -62,7 +62,7 @@ function App() {
   settings[1].min.currentValue = 0;
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <GradientBackground settings={settings} />
       <div id="container">
         <Header />
