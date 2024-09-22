@@ -4,7 +4,7 @@ This was project made at 42 school with a teammate.
 It essentially is a tech demo to showcase and learn simple rendering in the style of Wolftenstein 3D and being able to move around a map.
 This was done using a simple library called MLX42 to put images on the screen.
  
- <img src="/cube3d.gif">
+ <img src="cube3d.gif">
 
 ## Commentary
 

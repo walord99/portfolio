@@ -33,7 +33,7 @@ export function ProjectPreview({
     <>
       <div id="logos">
         <a href={project.link} target="_blank">
-          <img id="github_link" src="/github.svg" alt="" />
+          <img id="github_link" src="github.svg" alt="github link" />
         </a>
 
         {project.logos_path.map((path: string) => {

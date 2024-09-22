@@ -20,7 +20,7 @@ function Header() {
         <NavLink to="/">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/settings">
-          <img src="/cog.svg" alt="settings" />
+          <img src="cog.svg" alt="settings" />
         </NavLink>
       </div>
     </div>

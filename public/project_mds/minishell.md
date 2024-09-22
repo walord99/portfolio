@@ -8,7 +8,7 @@ The list of feature to implement were the following:
 - pipes, input and out redirection
 - basic signals
 
-<img src="/minishell_SC.png" style="">
+<img src="minishell_SC.png" style="">
 
 
 

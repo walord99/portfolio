@@ -30,7 +30,7 @@ function GradMesh({ settings }: { settings: sliderGroup[] }) {
     []
   );
   useEffect(() => {
-    fetch("/glsl/background.frag")
+    fetch("glsl/background.frag")
       .then((res) => res.text())
       .then((text) => setFragment(text));
     console.log(uniforms);
