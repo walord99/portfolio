@@ -2,9 +2,8 @@ import Header from "./components/Header";
 import Projects from "./pages/Projects";
 import GradientBackground from "./components/Background";
 import BackgroundSettings from "./pages/BackgroundSettings";
-
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { sliderData, sliderGroup } from "./pages/BackgroundSettings";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Page_404 from "./pages/404";
 import About from "./pages/About";
 
@@ -62,7 +61,7 @@ function App() {
   settings[1].min.currentValue = 0;
 
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <GradientBackground settings={settings} />
       <div id="container">
         <Header />
@@ -76,7 +75,7 @@ function App() {
           <Route path="*" element={<Page_404 />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
