@@ -58,7 +58,7 @@
   & ul {
     margin-top: 15px;
     display: grid;
-    grid-template-columns: 6vw 6vw 6vw;
+    grid-template-columns: 6vw 6vw 6vw 6vw;
     justify-content: center;
 	justify-items: center;
     column-gap: 5vw;

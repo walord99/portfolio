@@ -5,7 +5,7 @@ Here is a list of features planned or in the works.
 
 - Light/Dark options
 - Background color preset and saving
-- Blog page with a DB and search features
+- English and French support
 - Proper mobile ui
 - A lot of code cleanup
 

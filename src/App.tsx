@@ -67,11 +67,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
           <Route
             path="/settings"
             element={<BackgroundSettings settings={settings} />}
           />
-          <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Page_404 />} />
         </Routes>
       </div>
